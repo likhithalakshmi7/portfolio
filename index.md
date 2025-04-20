@@ -1,85 +1,81 @@
 # Data Science Portfolio
----
-## Machine learning
-
-### Fraud Detection
-
-Fraud detection is a set of processes and analyses that allow businesses to identify and prevent unauthorized financial activity. This can include fraudulent credit card transactions, identify theft, cyber hacking, insurance scams, and more.
-
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/sajankedia/fraud_detection)
-
-<center><img src="assets/img/fraud_detection.jpg"/></center>
 
 ---
-### Financial-Models-Numerical-Methods
 
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/sajankedia/Financial-Models-Numerical-Methods)
+## Machine Learning Projects
 
-This is just a collection of topics and algorithms that in my opinion are interesting.
+### Credit Risk Assessment System
 
-It contains several topics that are not so popular nowadays, but that can be very powerful. Usually, topics such as PDE methods, Lévy processes, Fourier methods or Kalman filter are not very popular among practitioners, who prefers to work with more standard tools.
-The aim of these notebooks is to present these interesting topics, by showing their practical application through an interactive python implementation.
+Helping financial institutions make smarter lending decisions with machine learning.
 
-<center><img src="assets/img/financial_modeling.jpg"/></center>
+Built a predictive model that analyzes customer financial data and classifies loan applications into risk categories. Implemented using Logistic Regression and Gradient Boosting.
 
----
-### LSTM Neural Network for Time Series Prediction
-
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/sajankedia/LSTM-Neural-Network-for-Time-Series-Prediction)
-
-The following article sections will briefly touch on LSTM neuron cells, give a toy example of predicting a sine wave then walk through the application to a stochastic time series. The article assumes a basic working knowledge of simple deep neural networks.
-
-<center><img src="https://camo.githubusercontent.com/a085b4fe60690252b8aa2de917c53fc3f63aec21aafea21c8f1ecb543d2c44cb/68747470733a2f2f7777772e616c74756d696e74656c6c6967656e63652e636f6d2f6173736574732f74696d652d7365726965732d70726564696374696f6e2d7573696e672d6c73746d2d646565702d6e657572616c2d6e6574776f726b732f73696e776176655f66756c6c5f7365712e706e67"/></center>
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/likithalaxmi/credit-risk-model)
 
 ---
-### Text Classification
 
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/sajankedia/cnn-text-classification-tf#readme)
+### Retail Sales Forecasting
 
-It is slightly simplified implementation of Kim's Convolutional Neural Networks for Sentence Classification paper in Tensorflow.
+Designed a time series model that forecasts future sales for a chain of retail stores using historical data.
 
-<center><img src="assets/img/text_classification.png"/></center>
+Applied ARIMA and Facebook Prophet, with visualization dashboards using Plotly to present trends and predictions.
 
----
-### Awesome Machine Learning
-
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/sajankedia/awesome-machine-learning)
-
-A curated list of awesome machine learning frameworks, libraries and software (by language). Inspired by awesome-php.
-
-<center><img src="assets/img/machine_learning.jpg"/></center>
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/likithalaxmi/retail-sales-forecasting)
 
 ---
-### Gesture Recognizer
 
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/sajankedia/CNNGestureRecognizer)
+### Resume Parser with NLP
 
-Gesture recognition via CNN neural network implemented in Keras + Theano + OpenCV
+Built an end-to-end NLP pipeline that extracts structured information like skills, experience, and education from unstructured resume PDFs.
 
-Key Requirements: Python 3.6.1 OpenCV 3.4.1 Keras 2.0.2 Tensorflow 1.2.1 Theano 0.9.0 (obsolete and not supported any further)
+Used `spaCy`, regular expressions, and deployed it via Streamlit for interactive usage.
 
-Suggestion: Better to download Anaconda as it will take care of most of the other packages and easier to setup a virtual workspace to work with multiple versions of key packages like python, opencv etc.
-
-<center><img src="assets/img/gesture_recognition.jpg"/></center>
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/likithalaxmi/resume-parser-nlp)
 
 ---
-### Human Activity Recognition
 
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/sajankedia/LSTM-Human-Activity-Recognition)
+### Emotion Detection from Text
 
-Human Activity Recognition (HAR) using smartphones dataset and an LSTM RNN. Classifying the type of movement amongst six categories:
+A Natural Language Processing project that detects emotions such as joy, anger, sadness, and fear in social media posts and messages.
 
-WALKING,
-WALKING_UPSTAIRS,
-WALKING_DOWNSTAIRS,
-SITTING,
-STANDING,
-LAYING.
-Compared to a classical approach, using a Recurrent Neural Networks (RNN) with Long Short-Term Memory cells (LSTMs) require no or almost no feature engineering. Data can be fed directly into the neural network who acts like a black box, modeling the problem correctly. Other research on the activity recognition dataset can use a big amount of feature engineering, which is rather a signal processing approach combined with classical data science techniques. The approach here is rather very simple in terms of how much was the data preprocessed.
+Trained a BiLSTM model with pre-trained GloVe embeddings for contextual accuracy.
 
-Let's use Google's neat Deep Learning library, TensorFlow, demonstrating the usage of an LSTM, a type of Artificial Neural Network that can process sequential data / time series.
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/likithalaxmi/emotion-detection)
 
-<center><img src="assets/img/human_activity.jpg"/></center>
+---
 
+### Climate Data Explorer
 
+Developed an interactive dashboard using Python Dash to analyze and visualize global temperature and CO2 level trends over decades.
 
+Inspired by the need to make environmental data more accessible and engaging to the public.
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/likithalaxmi/climate-data-explorer)
+
+---
+
+### Book Recommendation System
+
+Created a content-based and collaborative filtering hybrid recommender that helps users discover books based on past reading preferences.
+
+Incorporated cosine similarity and matrix factorization techniques.
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/likithalaxmi/book-recommender)
+
+---
+
+## A Note to the Curious Minds ✨
+
+> “In data we trust, but with context we thrive.”
+
+This portfolio is more than just code and charts. Each project here is a reflection of curiosity, creativity, and the drive to solve problems that matter.
+
+The power of data lies not just in algorithms, but in storytelling, empathy, and human insight. Keep building, keep questioning, and keep learning. 🚀
+
+---
+
+## Want to Collaborate?
+
+I’m always open to meaningful collaborations, open-source contributions, or just having a nerdy chat over data and design!
+
+Reach me on [LinkedIn](https://linkedin.com/in/likithalaxmi) or drop a line at likitha.laxmi@email.com 💌
